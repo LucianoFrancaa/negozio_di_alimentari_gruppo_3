@@ -1,8 +1,8 @@
 # negozio_di_alimentari_gruppo_3
 1. **Franca** : capogruppo, programatore
-2. Jecha : UML,programmatore
-3. Shutev : scrivere il README
-4. Sabattini : programmatore
+2. Jecha : UML, programmatore
+3. Shutev : UML, scrivere il README
+4. Sabattini : UML, programmatore
 
 ## Testo
 Programmare un sistema di gestione per un negozio di alimentari.<br>
