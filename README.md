@@ -46,10 +46,7 @@ data_scadenza : Date
 }
 
 class ProdConfezionato{
-confezione : Confezione
-}
-
-class Confezione{
+confezione : Object
 }
 
 class Lattina{
@@ -65,10 +62,9 @@ Negozio "1-1"--"0-N" Cliente : viene frequentato
 Negozio "1-1"--"0-N" Prodotto : vende
 Prodotto --|> ProdFresco
 Prodotto --|> ProdConfezionato
-ProdConfezionato "1-1"--"1-1" Confezione
-Confezione --|> Barattolo
-Confezione --|> Scatola
-Confezione --|> Lattina
+ProdConfezionato --|> Barattolo
+ProdConfezionato --|> Scatola
+ProdConfezionato --|> Lattina
 
 @enduml
 
