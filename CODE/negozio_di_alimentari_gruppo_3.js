@@ -180,7 +180,7 @@ class Scatola extends ProdConfezionato{
 	}
 }
 
-		// Esempio di utilizzo
+
 let negozio = new Negozio("NomeNegozio", "Via Vivare");
 let prodotto_fresco = new ProdFresco('Mela', 'P0001', 0.5, 100, new Date('2023-04-30'));
 let prodotto_confezionato = new Lattina('Birra', 'P0002', 1.5, 50, 'lattina');
