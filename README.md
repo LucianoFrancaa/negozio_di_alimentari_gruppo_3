@@ -60,11 +60,11 @@ class Scatola{
 
 Negozio "1-1"--"0-N" Cliente : viene frequentato
 Negozio "1-1"--"0-N" Prodotto : vende
-Prodotto --|> ProdFresco
-Prodotto --|> ProdConfezionato
-ProdConfezionato --|> Barattolo
-ProdConfezionato --|> Scatola
-ProdConfezionato --|> Lattina
+Prodotto <|-- ProdFresco
+Prodotto <|-- ProdConfezionato
+ProdConfezionato <|-- Barattolo
+ProdConfezionato <|-- Scatola
+ProdConfezionato <|-- Lattina
 
 @enduml
 
