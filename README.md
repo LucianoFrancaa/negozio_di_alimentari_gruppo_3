@@ -5,9 +5,13 @@
 4. Sabattini : UML, programmatore
 
 ## Testo
-Programmare un sistema di gestione per un negozio di alimentari.<br>
-Dove le entità principali del sistema sono i prodotti e i clienti.<br>
-I prodotti possono essere freschi oppure confezionati.<br>
+Si vuole realizzare un sistema di gestione di un negozio di alimentari.<br> 
+Le entità principali del sistema sono i prodotti e i clienti.<br>
+I prodotti hanno un nome, un codice univoco, un prezzo e una quantità disponibile in magazzino. I prodotti possono essere freschi ed in questo caso hanno una data di<br> scadenza oppure confezionati ed in questo caso hanno un tipo di confezione: ad esempio, lattina, barattolo, scatola, ecc.<br>
+I clienti hanno un nome, un cognome, un codice univoco e un saldo disponibile per gli acquisti.<br>
+Il negozio deve poter calcolare il numero totale di prodotti disponibili in magazzino.<br>
+Il negozio deve poter calcolare il valore complessivo dei prodotti disponibili in magazzino.<br>
+
 
 ## Immagine del diagramma UML
 ![negozio_di_alimentari_gruppo_3](https://github.com/LucianoFrancaa/negozio_di_alimentari_gruppo_3/blob/main/negozio_di_alimentari_gruppo_3_UML.png)
