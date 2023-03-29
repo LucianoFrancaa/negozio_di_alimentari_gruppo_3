@@ -139,51 +139,27 @@ class ProdConfezionato extends Prodotto{
 }
 
 class Lattina extends ProdConfezionato{
-	#l_confezione = null;
-	constructor(nome, codice, prezzo, quantita, confezione){
+	constructor(nome, codice, prezzo, quantita){
 		super(nome, codice, prezzo, quantita);
-		this.confezione = confezione;
-	}
-	set confezione(packaging) {
-		this.#l_confezione = packaging;
-	}
-	get confezione() {
-		return this.#l_confezione;
 	}
 }
 
 class Barattolo extends ProdConfezionato{
-	#b_confezione = null;
-	constructor(nome, codice, prezzo, quantita, confezione){
+	constructor(nome, codice, prezzo, quantita){
 		super(nome, codice, prezzo, quantita);
-		this.confezione = confezione;
-	}
-	set confezione(packaging) {
-		this.#b_confezione = packaging;
-	}
-	get confezione() {
-		return this.#b_confezione;
 	}
 }
 
 class Scatola extends ProdConfezionato{
-	#s_confezione = null;
-	constructor(nome, codice, prezzo, quantita, confezione){
+	constructor(nome, codice, prezzo, quantita){
 		super(nome, codice, prezzo, quantita);
-		this.confezione = confezione;
-	}
-	set confezione(packaging) {
-		this.#s_confezione = packaging;
-	}
-	get confezione() {
-		return this.#s_confezione;
 	}
 }
 
 
 let negozio = new Negozio("NomeNegozio", "Via Vivare");
 let prodotto_fresco = new ProdFresco('Mela', 'P0001', 0.5, 100, new Date('2023-04-30'));
-let prodotto_confezionato = new Lattina('Birra', 'P0002', 1.5, 50, 'lattina');
+let prodotto_confezionato = new Lattina('Birra', 'P0002', 1.5, 50);
 let cliente = new Cliente('Mario', 'Rossi', 'C0001', 100);
 
 negozio.aggiungiProdotto(prodotto_fresco);
