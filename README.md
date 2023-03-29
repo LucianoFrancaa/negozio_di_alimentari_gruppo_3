@@ -23,6 +23,8 @@ nome : string
 indirizzo : string
 prodotti_in_magazzino : Prodotto[]
 clienti : Cliente[]
+aggiungiCliente(Cliente) : void
+aggiungiProdotto(Prodotto) : void
 calcola_n_prodotti() : int
 calcola_valore_prodotti() : float
 }
@@ -31,7 +33,7 @@ class Prodotto{
 nome : string
 codice_univoco : int
 prezzo : float
-''quantita_disponibile : int
+quantita : int
 }
 
 class Cliente{
