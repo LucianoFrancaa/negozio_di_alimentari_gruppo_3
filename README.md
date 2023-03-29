@@ -52,7 +52,6 @@ data_scadenza : Date
 }
 
 class ProdConfezionato{
-confezione : Object
 }
 
 class Lattina{
